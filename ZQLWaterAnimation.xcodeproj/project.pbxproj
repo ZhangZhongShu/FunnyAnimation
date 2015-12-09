@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401160151C187FC300F9E748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 401160141C187FC300F9E748 /* main.m */; };
+		401160181C187FC300F9E748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 401160171C187FC300F9E748 /* AppDelegate.m */; };
+		4011601B1C187FC300F9E748 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4011601A1C187FC300F9E748 /* ViewController.m */; };
+		4011601E1C187FC300F9E748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4011601C1C187FC300F9E748 /* Main.storyboard */; };
+		401160201C187FC300F9E748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4011601F1C187FC300F9E748 /* Assets.xcassets */; };
+		401160231C187FC300F9E748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401160211C187FC300F9E748 /* LaunchScreen.storyboard */; };
+		4011602E1C187FC300F9E748 /* ZQLWaterAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4011602D1C187FC300F9E748 /* ZQLWaterAnimationTests.m */; };
+		401160391C187FC300F9E748 /* ZQLWaterAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401160381C187FC300F9E748 /* ZQLWaterAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4011602A1C187FC300F9E748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401160081C187FC300F9E748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4011600F1C187FC300F9E748;
+			remoteInfo = ZQLWaterAnimation;
+		};
+		401160351C187FC300F9E748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 401160081C187FC300F9E748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4011600F1C187FC300F9E748;
+			remoteInfo = ZQLWaterAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		401160101C187FC300F9E748 /* ZQLWaterAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQLWaterAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		401160141C187FC300F9E748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		401160161C187FC300F9E748 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		401160171C187FC300F9E748 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		401160191C187FC300F9E748 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4011601A1C187FC300F9E748 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4011601D1C187FC300F9E748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4011601F1C187FC300F9E748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		401160221C187FC300F9E748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		401160241C187FC300F9E748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401160291C187FC300F9E748 /* ZQLWaterAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQLWaterAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4011602D1C187FC300F9E748 /* ZQLWaterAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQLWaterAnimationTests.m; sourceTree = "<group>"; };
+		4011602F1C187FC300F9E748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401160341C187FC300F9E748 /* ZQLWaterAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQLWaterAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		401160381C187FC300F9E748 /* ZQLWaterAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQLWaterAnimationUITests.m; sourceTree = "<group>"; };
+		4011603A1C187FC300F9E748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4011600D1C187FC300F9E748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401160261C187FC300F9E748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401160311C187FC300F9E748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401160071C187FC300F9E748 = {
+			isa = PBXGroup;
+			children = (
+				401160121C187FC300F9E748 /* ZQLWaterAnimation */,
+				4011602C1C187FC300F9E748 /* ZQLWaterAnimationTests */,
+				401160371C187FC300F9E748 /* ZQLWaterAnimationUITests */,
+				401160111C187FC300F9E748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		401160111C187FC300F9E748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				401160101C187FC300F9E748 /* ZQLWaterAnimation.app */,
+				401160291C187FC300F9E748 /* ZQLWaterAnimationTests.xctest */,
+				401160341C187FC300F9E748 /* ZQLWaterAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		401160121C187FC300F9E748 /* ZQLWaterAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				401160161C187FC300F9E748 /* AppDelegate.h */,
+				401160171C187FC300F9E748 /* AppDelegate.m */,
+				401160191C187FC300F9E748 /* ViewController.h */,
+				4011601A1C187FC300F9E748 /* ViewController.m */,
+				4011601C1C187FC300F9E748 /* Main.storyboard */,
+				4011601F1C187FC300F9E748 /* Assets.xcassets */,
+				401160211C187FC300F9E748 /* LaunchScreen.storyboard */,
+				401160241C187FC300F9E748 /* Info.plist */,
+				401160131C187FC300F9E748 /* Supporting Files */,
+			);
+			path = ZQLWaterAnimation;
+			sourceTree = "<group>";
+		};
+		401160131C187FC300F9E748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				401160141C187FC300F9E748 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4011602C1C187FC300F9E748 /* ZQLWaterAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4011602D1C187FC300F9E748 /* ZQLWaterAnimationTests.m */,
+				4011602F1C187FC300F9E748 /* Info.plist */,
+			);
+			path = ZQLWaterAnimationTests;
+			sourceTree = "<group>";
+		};
+		401160371C187FC300F9E748 /* ZQLWaterAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				401160381C187FC300F9E748 /* ZQLWaterAnimationUITests.m */,
+				4011603A1C187FC300F9E748 /* Info.plist */,
+			);
+			path = ZQLWaterAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4011600F1C187FC300F9E748 /* ZQLWaterAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4011603D1C187FC300F9E748 /* Build configuration list for PBXNativeTarget "ZQLWaterAnimation" */;
+			buildPhases = (
+				4011600C1C187FC300F9E748 /* Sources */,
+				4011600D1C187FC300F9E748 /* Frameworks */,
+				4011600E1C187FC300F9E748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQLWaterAnimation;
+			productName = ZQLWaterAnimation;
+			productReference = 401160101C187FC300F9E748 /* ZQLWaterAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		401160281C187FC300F9E748 /* ZQLWaterAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401160401C187FC300F9E748 /* Build configuration list for PBXNativeTarget "ZQLWaterAnimationTests" */;
+			buildPhases = (
+				401160251C187FC300F9E748 /* Sources */,
+				401160261C187FC300F9E748 /* Frameworks */,
+				401160271C187FC300F9E748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4011602B1C187FC300F9E748 /* PBXTargetDependency */,
+			);
+			name = ZQLWaterAnimationTests;
+			productName = ZQLWaterAnimationTests;
+			productReference = 401160291C187FC300F9E748 /* ZQLWaterAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		401160331C187FC300F9E748 /* ZQLWaterAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401160431C187FC300F9E748 /* Build configuration list for PBXNativeTarget "ZQLWaterAnimationUITests" */;
+			buildPhases = (
+				401160301C187FC300F9E748 /* Sources */,
+				401160311C187FC300F9E748 /* Frameworks */,
+				401160321C187FC300F9E748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				401160361C187FC300F9E748 /* PBXTargetDependency */,
+			);
+			name = ZQLWaterAnimationUITests;
+			productName = ZQLWaterAnimationUITests;
+			productReference = 401160341C187FC300F9E748 /* ZQLWaterAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		401160081C187FC300F9E748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "臧其龙";
+				TargetAttributes = {
+					4011600F1C187FC300F9E748 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					401160281C187FC300F9E748 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4011600F1C187FC300F9E748;
+					};
+					401160331C187FC300F9E748 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4011600F1C187FC300F9E748;
+					};
+				};
+			};
+			buildConfigurationList = 4011600B1C187FC300F9E748 /* Build configuration list for PBXProject "ZQLWaterAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 401160071C187FC300F9E748;
+			productRefGroup = 401160111C187FC300F9E748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4011600F1C187FC300F9E748 /* ZQLWaterAnimation */,
+				401160281C187FC300F9E748 /* ZQLWaterAnimationTests */,
+				401160331C187FC300F9E748 /* ZQLWaterAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4011600E1C187FC300F9E748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401160231C187FC300F9E748 /* LaunchScreen.storyboard in Resources */,
+				401160201C187FC300F9E748 /* Assets.xcassets in Resources */,
+				4011601E1C187FC300F9E748 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401160271C187FC300F9E748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401160321C187FC300F9E748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4011600C1C187FC300F9E748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4011601B1C187FC300F9E748 /* ViewController.m in Sources */,
+				401160181C187FC300F9E748 /* AppDelegate.m in Sources */,
+				401160151C187FC300F9E748 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401160251C187FC300F9E748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4011602E1C187FC300F9E748 /* ZQLWaterAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		401160301C187FC300F9E748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401160391C187FC300F9E748 /* ZQLWaterAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4011602B1C187FC300F9E748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4011600F1C187FC300F9E748 /* ZQLWaterAnimation */;
+			targetProxy = 4011602A1C187FC300F9E748 /* PBXContainerItemProxy */;
+		};
+		401160361C187FC300F9E748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4011600F1C187FC300F9E748 /* ZQLWaterAnimation */;
+			targetProxy = 401160351C187FC300F9E748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4011601C1C187FC300F9E748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4011601D1C187FC300F9E748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		401160211C187FC300F9E748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				401160221C187FC300F9E748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4011603B1C187FC300F9E748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4011603C1C187FC300F9E748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4011603E1C187FC300F9E748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQLWaterAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLWaterAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4011603F1C187FC300F9E748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQLWaterAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLWaterAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		401160411C187FC300F9E748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQLWaterAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLWaterAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQLWaterAnimation.app/ZQLWaterAnimation";
+			};
+			name = Debug;
+		};
+		401160421C187FC300F9E748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQLWaterAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLWaterAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQLWaterAnimation.app/ZQLWaterAnimation";
+			};
+			name = Release;
+		};
+		401160441C187FC300F9E748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQLWaterAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLWaterAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQLWaterAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		401160451C187FC300F9E748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQLWaterAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.ZQLWaterAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQLWaterAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4011600B1C187FC300F9E748 /* Build configuration list for PBXProject "ZQLWaterAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4011603B1C187FC300F9E748 /* Debug */,
+				4011603C1C187FC300F9E748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4011603D1C187FC300F9E748 /* Build configuration list for PBXNativeTarget "ZQLWaterAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4011603E1C187FC300F9E748 /* Debug */,
+				4011603F1C187FC300F9E748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		401160401C187FC300F9E748 /* Build configuration list for PBXNativeTarget "ZQLWaterAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401160411C187FC300F9E748 /* Debug */,
+				401160421C187FC300F9E748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		401160431C187FC300F9E748 /* Build configuration list for PBXNativeTarget "ZQLWaterAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401160441C187FC300F9E748 /* Debug */,
+				401160451C187FC300F9E748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 401160081C187FC300F9E748 /* Project object */;
+}
