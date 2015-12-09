@@ -15,6 +15,12 @@
 		401160231C187FC300F9E748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401160211C187FC300F9E748 /* LaunchScreen.storyboard */; };
 		4011602E1C187FC300F9E748 /* ZQLWaterAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4011602D1C187FC300F9E748 /* ZQLWaterAnimationTests.m */; };
 		401160391C187FC300F9E748 /* ZQLWaterAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401160381C187FC300F9E748 /* ZQLWaterAnimationUITests.m */; };
+		401160491C187FD700F9E748 /* ButtonAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 401160481C187FD700F9E748 /* ButtonAnimationView.m */; };
+		4011604D1C1881EE00F9E748 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4011604C1C1881EE00F9E748 /* UIColor+HexColor.m */; };
+		401160501C1883A000F9E748 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4011604F1C1883A000F9E748 /* WaveView.m */; };
+		401160531C1890EB00F9E748 /* DateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 401160521C1890EB00F9E748 /* DateCollectionViewCell.m */; };
+		401160571C1892D900F9E748 /* CustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 401160561C1892D900F9E748 /* CustomLayout.m */; };
+		4011605A1C18A90200F9E748 /* ScrollLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 401160591C18A90200F9E748 /* ScrollLabelView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		401160341C187FC300F9E748 /* ZQLWaterAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQLWaterAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		401160381C187FC300F9E748 /* ZQLWaterAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQLWaterAnimationUITests.m; sourceTree = "<group>"; };
 		4011603A1C187FC300F9E748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401160471C187FD700F9E748 /* ButtonAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonAnimationView.h; sourceTree = "<group>"; };
+		401160481C187FD700F9E748 /* ButtonAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonAnimationView.m; sourceTree = "<group>"; };
+		4011604B1C1881EE00F9E748 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		4011604C1C1881EE00F9E748 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		4011604E1C1883A000F9E748 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		4011604F1C1883A000F9E748 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		401160511C1890EB00F9E748 /* DateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCollectionViewCell.h; sourceTree = "<group>"; };
+		401160521C1890EB00F9E748 /* DateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCollectionViewCell.m; sourceTree = "<group>"; };
+		401160551C1892D900F9E748 /* CustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayout.h; sourceTree = "<group>"; };
+		401160561C1892D900F9E748 /* CustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayout.m; sourceTree = "<group>"; };
+		401160581C18A90200F9E748 /* ScrollLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollLabelView.h; sourceTree = "<group>"; };
+		401160591C18A90200F9E748 /* ScrollLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollLabelView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,9 @@
 		401160121C187FC300F9E748 /* ZQLWaterAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				401160541C1892CA00F9E748 /* Layout */,
+				4011604A1C1881E200F9E748 /* Category */,
+				401160461C187FC800F9E748 /* View */,
 				401160161C187FC300F9E748 /* AppDelegate.h */,
 				401160171C187FC300F9E748 /* AppDelegate.m */,
 				401160191C187FC300F9E748 /* ViewController.h */,
@@ -138,6 +159,39 @@
 				4011603A1C187FC300F9E748 /* Info.plist */,
 			);
 			path = ZQLWaterAnimationUITests;
+			sourceTree = "<group>";
+		};
+		401160461C187FC800F9E748 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				401160471C187FD700F9E748 /* ButtonAnimationView.h */,
+				401160481C187FD700F9E748 /* ButtonAnimationView.m */,
+				4011604E1C1883A000F9E748 /* WaveView.h */,
+				4011604F1C1883A000F9E748 /* WaveView.m */,
+				401160511C1890EB00F9E748 /* DateCollectionViewCell.h */,
+				401160521C1890EB00F9E748 /* DateCollectionViewCell.m */,
+				401160581C18A90200F9E748 /* ScrollLabelView.h */,
+				401160591C18A90200F9E748 /* ScrollLabelView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4011604A1C1881E200F9E748 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4011604B1C1881EE00F9E748 /* UIColor+HexColor.h */,
+				4011604C1C1881EE00F9E748 /* UIColor+HexColor.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		401160541C1892CA00F9E748 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				401160551C1892D900F9E748 /* CustomLayout.h */,
+				401160561C1892D900F9E748 /* CustomLayout.m */,
+			);
+			name = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +325,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4011601B1C187FC300F9E748 /* ViewController.m in Sources */,
+				401160531C1890EB00F9E748 /* DateCollectionViewCell.m in Sources */,
+				401160571C1892D900F9E748 /* CustomLayout.m in Sources */,
 				401160181C187FC300F9E748 /* AppDelegate.m in Sources */,
+				4011604D1C1881EE00F9E748 /* UIColor+HexColor.m in Sources */,
+				4011605A1C18A90200F9E748 /* ScrollLabelView.m in Sources */,
 				401160151C187FC300F9E748 /* main.m in Sources */,
+				401160491C187FD700F9E748 /* ButtonAnimationView.m in Sources */,
+				401160501C1883A000F9E748 /* WaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
